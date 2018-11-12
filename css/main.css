@@ -1,0 +1,181 @@
+/* rgb(223, 68, 68)*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family:'Rosario', sans-serif;
+    font-size: 20px;
+    background-color: #fff;
+    color: rgb(39, 39, 39);
+    font-weight: 400;
+    
+}
+
+/******** BASE STYLES **********/
+
+#work, #about, #contact{
+    padding: 50px 0;
+}
+
+.row {
+    width: 1200px;
+    margin: 0 auto;
+}
+.span-1-of-2 {
+    width: 50%;
+    float: left;
+}
+.span-1-of-3 {
+    width: 33%;
+    float:left;
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+      
+}
+
+h2{
+    font-size: 120%;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 1px;
+}
+
+h3{
+    font-size: 100%;
+    padding: 10px;
+}    
+
+/******* HEADER ********/
+
+header{
+    background-image: url("../img/hero-image.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero-text {
+    padding-top: 180px;
+    padding-left: 180px;
+    width: 75%;
+    margin: 0 auto;
+    
+    
+}
+.hero-text span{
+    text-transform: uppercase;
+    font-size: 120%;
+    font-weight: 700;
+    color: rgb(223, 68, 68);
+    letter-spacing: 1.5px;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+/***** WORK **********/
+
+#work .row {
+    
+}
+
+
+.portfolio-item{
+    background-color: transparent;
+    border-radius: 5%;
+    border: 1px solid rgb(223, 68, 68);
+    transition: background-color 0.5s;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 80%;
+    margin: 0 auto;
+    /*margin-right: 3px;
+    margin-left:3px;*/
+   
+} 
+
+.portfolio-item:hover{
+    background-color: rgba(223, 68, 68, 0.281);
+    border-radius: 5%;
+    border: 1px solid rgb(223, 68, 68);
+} 
+
+.portfolio-item img{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    border: 2px solid rgb(59, 59, 59);
+    display: block;
+    
+    
+}
+
+.portfolio-item h3{
+    display: block;
+    padding: 20px 50px;
+}
+.portfolio-item p{
+    display: block;
+    padding: 0 50px;
+    font-size: 80%;
+}
+
+/*======================
+-------ABOUT------------
+=======================*/
+
+#about{
+    background-color: #f7f7f7;
+}
+#about h4{
+    padding-top: 20px;
+}
+#about ul{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+/*======================
+-------CONTACT-----------
+=======================*/
+#contact{
+    background-color: rgb(223, 68, 68);
+}
+#contact h2{
+    color: #fff;
+}
+#contact h4{
+    text-align: center;
+    margin-top: -20px;
+    padding-bottom: 40px;
+    color: #fff;
+}
+
+#contact h3{
+    text-align: center;
+    text-decoration: underline;
+    color: #fff;
+    padding-bottom: 20px;
+}
+#contact p{
+    text-align: center;
+    color: #fff;
+}
+#contact ul{
+    list-style: none;
+    text-align: center;
+}
+#contact ul li{
+display: inline-block;
+}
